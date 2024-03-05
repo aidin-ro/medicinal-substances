@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Studies_of_medicinal_substances
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new Import_Value_input());
         }
     }
 }

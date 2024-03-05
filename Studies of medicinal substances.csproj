@@ -37,11 +37,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
     <Reference Include="DevExpress.BonusSkins.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.Desktop.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Drawing.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Sparkline.v23.2.Core.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Utils.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -56,7 +61,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -122,6 +133,7 @@
     <Compile Include="Manufacturing_Companies.Designer.cs">
       <DependentUpon>Manufacturing_Companies.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tec_input.cs">
@@ -135,12 +147,6 @@
     </Compile>
     <Compile Include="Tec_Production_input.Designer.cs">
       <DependentUpon>Tec_Production_input.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XtraForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="XtraForm1.Designer.cs">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Chemical_Base_Show_Data.resx">
       <DependentUpon>Chemical_Base_Show_Data.cs</DependentUpon>
@@ -169,6 +175,18 @@
     <EmbeddedResource Include="Manufacturing_Companies.resx">
       <DependentUpon>Manufacturing_Companies.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\DLayer.Import_Value_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Chemical_Base_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Chemical_Base_Show_Data.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.companis_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Constituent_Chemicals_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Consumer_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.inputs.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Main.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Manufacturing_Companies_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Tec_input.resources" />
+    <EmbeddedResource Include="obj\Debug\Studies_of_medicinal_substances.Tec_Production_input.resources" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -186,10 +204,46 @@
     <EmbeddedResource Include="Tec_Production_input.resx">
       <DependentUpon>Tec_Production_input.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XtraForm1.resx">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include=".github\workflows\dotnet-desktop.yml" />
+    <None Include="bin\Debug\DLayer.dll.config" />
+    <None Include="bin\Debug\Studies of medicinal substances.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Studies of medicinal substances.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\Studies of medicinal substances.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Studies of medicinal substances.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\Studies of medicinal substances.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="obj\Release\Studies of medicinal substances.csproj.AssemblyReference.cache" />
     <None Include="packages.config" />
+    <None Include="packages\EntityFramework.6.2.0\Content\net40\App.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\Content\net40\Web.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\EntityFramework.6.2.0.nupkg" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psd1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psm1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\init.ps1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\install.ps1" />
+    <None Include="packages\EntityFramework.6.4.4\.signature.p7s" />
+    <None Include="packages\EntityFramework.6.4.4\buildTransitive\EntityFramework.props" />
+    <None Include="packages\EntityFramework.6.4.4\buildTransitive\EntityFramework.targets" />
+    <None Include="packages\EntityFramework.6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" />
+    <None Include="packages\EntityFramework.6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.targets" />
+    <None Include="packages\EntityFramework.6.4.4\build\EntityFramework.DefaultItems.props" />
+    <None Include="packages\EntityFramework.6.4.4\build\EntityFramework.props" />
+    <None Include="packages\EntityFramework.6.4.4\build\EntityFramework.targets" />
+    <None Include="packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props" />
+    <None Include="packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets" />
+    <None Include="packages\EntityFramework.6.4.4\content\net40\App.config.install.xdt" />
+    <None Include="packages\EntityFramework.6.4.4\content\net40\App.config.transform" />
+    <None Include="packages\EntityFramework.6.4.4\content\net40\Web.config.install.xdt" />
+    <None Include="packages\EntityFramework.6.4.4\content\net40\Web.config.transform" />
+    <None Include="packages\EntityFramework.6.4.4\EntityFramework.6.4.4.nupkg" />
+    <None Include="packages\EntityFramework.6.4.4\tools\EntityFramework6.PS2.psd1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\EntityFramework6.PS2.psm1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\EntityFramework6.psd1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\EntityFramework6.psm1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\init.ps1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\install.ps1" />
+    <None Include="packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json" />
     <None Include="Properties\DataSources\DLayer.ChemicalEntities.datasource" />
     <None Include="Properties\DataSources\DLayer.sysdiagrams.datasource" />
     <None Include="Properties\DataSources\DLayer.tChemical_Base.datasource" />
@@ -218,6 +272,94 @@
       <Project>{66bb8eeb-4113-4398-8433-3317c1f48c64}</Project>
       <Name>DLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="bin\Debug\DevExpress.BonusSkins.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.Desktop.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.Desktop.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Data.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Drawing.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Drawing.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Office.v23.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Office.v23.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v23.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v23.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v23.2.Drawing.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v23.2.Drawing.xml" />
+    <Content Include="bin\Debug\DevExpress.Printing.v23.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Printing.v23.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v23.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v23.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v23.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v23.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Utils.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Utils.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraBars.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraBars.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraGrid.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraGrid.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraLayout.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraLayout.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraPrinting.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraPrinting.v23.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraTreeList.v23.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraTreeList.v23.2.xml" />
+    <Content Include="bin\Debug\DLayer.dll" />
+    <Content Include="bin\Debug\DLayer.pdb" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\Studies of medicinal substances.exe" />
+    <Content Include="bin\Debug\Studies of medicinal substances.pdb" />
+    <Content Include="obj\Debug\Studies of medicinal substances.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\studies of medicinal substances.exe.licenses" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\about_EntityFramework.help.txt" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.Utility.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\migrate.exe" />
+    <Content Include="packages\EntityFramework.6.4.4\build\Microsoft.Data.Entity.Build.Tasks.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\Icon.png" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net40\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\net45\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\lib\netstandard2.1\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\about_EntityFramework6.help.txt" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net40\any\ef6.exe" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net40\any\ef6.pdb" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net40\win-x86\ef6.exe" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net40\win-x86\ef6.pdb" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net45\any\ef6.exe" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net45\any\ef6.pdb" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net45\win-x86\ef6.exe" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\net45\win-x86\ef6.pdb" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.dll" />
+    <Content Include="packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
