@@ -73,7 +73,7 @@
             // 
             this.inputfName.Location = new System.Drawing.Point(12, 12);
             this.inputfName.Name = "inputfName";
-            this.inputfName.Size = new System.Drawing.Size(892, 20);
+            this.inputfName.Size = new System.Drawing.Size(888, 20);
             this.inputfName.StyleController = this.layoutControl1;
             this.inputfName.TabIndex = 23;
             // 
@@ -91,13 +91,13 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1014, 692);
+            this.layoutControl1.Size = new System.Drawing.Size(1018, 692);
             this.layoutControl1.TabIndex = 27;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // Select_image
             // 
-            this.Select_image.Location = new System.Drawing.Point(819, 658);
+            this.Select_image.Location = new System.Drawing.Point(823, 658);
             this.Select_image.Name = "Select_image";
             this.Select_image.Size = new System.Drawing.Size(183, 22);
             this.Select_image.StyleController = this.layoutControl1;
@@ -130,7 +130,7 @@
             this.pictureEdit1.Location = new System.Drawing.Point(12, 303);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(892, 351);
+            this.pictureEdit1.Size = new System.Drawing.Size(888, 351);
             this.pictureEdit1.StyleController = this.layoutControl1;
             this.pictureEdit1.TabIndex = 27;
             // 
@@ -138,7 +138,7 @@
             // 
             this.inputfCode.Location = new System.Drawing.Point(12, 36);
             this.inputfCode.Name = "inputfCode";
-            this.inputfCode.Size = new System.Drawing.Size(892, 20);
+            this.inputfCode.Size = new System.Drawing.Size(888, 20);
             this.inputfCode.StyleController = this.layoutControl1;
             this.inputfCode.TabIndex = 24;
             // 
@@ -146,7 +146,7 @@
             // 
             this.inputfPersian.Location = new System.Drawing.Point(12, 60);
             this.inputfPersian.Name = "inputfPersian";
-            this.inputfPersian.Size = new System.Drawing.Size(892, 104);
+            this.inputfPersian.Size = new System.Drawing.Size(888, 104);
             this.inputfPersian.StyleController = this.layoutControl1;
             this.inputfPersian.TabIndex = 25;
             // 
@@ -154,7 +154,7 @@
             // 
             this.inputfEnglish.Location = new System.Drawing.Point(12, 168);
             this.inputfEnglish.Name = "inputfEnglish";
-            this.inputfEnglish.Size = new System.Drawing.Size(892, 131);
+            this.inputfEnglish.Size = new System.Drawing.Size(888, 131);
             this.inputfEnglish.StyleController = this.layoutControl1;
             this.inputfEnglish.TabIndex = 26;
             // 
@@ -173,7 +173,7 @@
             this.layoutControlItem2,
             this.layoutControlItem7});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1014, 692);
+            this.Root.Size = new System.Drawing.Size(1018, 692);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem4
@@ -181,7 +181,7 @@
             this.layoutControlItem4.Control = this.inputfCode;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(994, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(998, 24);
             this.layoutControlItem4.Text = ":کد ماده";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(94, 13);
@@ -191,7 +191,7 @@
             this.layoutControlItem5.Control = this.inputfPersian;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(994, 108);
+            this.layoutControlItem5.Size = new System.Drawing.Size(998, 108);
             this.layoutControlItem5.Text = ":توضیحات فارسی";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem5.TextSize = new System.Drawing.Size(94, 13);
@@ -201,7 +201,7 @@
             this.layoutControlItem6.Control = this.inputfEnglish;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 156);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(994, 135);
+            this.layoutControlItem6.Size = new System.Drawing.Size(998, 135);
             this.layoutControlItem6.Text = ":توضیحات اینگلیسی";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(94, 13);
@@ -211,7 +211,7 @@
             this.layoutControlItem3.Control = this.inputfName;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(994, 24);
+            this.layoutControlItem3.Size = new System.Drawing.Size(998, 24);
             this.layoutControlItem3.Text = ":نام ماده ";
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(94, 13);
@@ -221,13 +221,13 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(381, 646);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(426, 26);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(430, 26);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.Select_image;
-            this.layoutControlItem8.Location = new System.Drawing.Point(807, 646);
+            this.layoutControlItem8.Location = new System.Drawing.Point(811, 646);
             this.layoutControlItem8.MaxSize = new System.Drawing.Size(187, 26);
             this.layoutControlItem8.MinSize = new System.Drawing.Size(187, 26);
             this.layoutControlItem8.Name = "layoutControlItem8";
@@ -241,7 +241,7 @@
             this.layoutControlItem1.Control = this.pictureEdit1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 291);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(994, 355);
+            this.layoutControlItem1.Size = new System.Drawing.Size(998, 355);
             this.layoutControlItem1.Text = ":تصویر";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(94, 13);
@@ -283,7 +283,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1014, 692);
+            this.ClientSize = new System.Drawing.Size(1018, 692);
             this.Controls.Add(this.layoutControl1);
             this.Name = "Chemical_Base_input";
             this.Text = "Chemical input";

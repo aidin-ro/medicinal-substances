@@ -42,6 +42,7 @@
     <Reference Include="DevExpress.Data.Desktop.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Drawing.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Sparkline.v23.2.Core, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -79,6 +80,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChemicalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChemicalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ChemicalDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChemicalDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Chemical_Base_Show_Data.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +119,12 @@
     </Compile>
     <Compile Include="Consumer_input.Designer.cs">
       <DependentUpon>Consumer_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Import_Value_input.cs">
       <SubType>Form</SubType>
@@ -163,6 +180,9 @@
     <EmbeddedResource Include="Consumer_input.resx">
       <DependentUpon>Consumer_input.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Import_Value_input.resx">
       <DependentUpon>Import_Value_input.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +227,28 @@
     <None Include=".github\workflows\dotnet-desktop.yml" />
     <None Include="bin\Debug\DLayer.dll.config" />
     <None Include="bin\Debug\Studies of medicinal substances.exe.config" />
+    <None Include="ChemicalDataSet.xsc">
+      <DependentUpon>ChemicalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ChemicalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ChemicalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ChemicalDataSet.xss">
+      <DependentUpon>ChemicalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ChemicalDataSet1.xsc">
+      <DependentUpon>ChemicalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ChemicalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ChemicalDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ChemicalDataSet1.xss">
+      <DependentUpon>ChemicalDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Studies of medicinal substances.csproj.AssemblyReference.cache" />

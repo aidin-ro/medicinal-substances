@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -80,6 +81,13 @@ namespace Studies_of_medicinal_substances
             this.Close();
 
             var newform = new Tec_Production_input();
+            newform.Show();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+          
+            var newform = new Import_Value_input();
             newform.Show();
         }
     }

@@ -17,7 +17,7 @@ namespace Studies_of_medicinal_substances
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Import_Value_input());
+            Application.Run(new Main());
         }
     }
 }

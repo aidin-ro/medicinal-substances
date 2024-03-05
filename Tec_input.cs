@@ -11,14 +11,13 @@ using System.Windows.Forms;
 
 namespace Studies_of_medicinal_substances
 {
-    public partial class Tec_input : Form
-    {
+    public partial class Tec_input : DevExpress.XtraEditors.XtraForm
+    { 
         public Tec_input()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void simpleButton2_Click(object sender, EventArgs e)
         {
             this.Close();
 
@@ -33,7 +32,7 @@ namespace Studies_of_medicinal_substances
                 tTechnologies addTec = new tTechnologies()
                 {
                     fName = Tec_Name_input.Text,
-                    fTec_Description = Tec_Name_input.Text,
+                    fTec_Description = Description_input.Text,
                 };
                 chemicalEn.tTechnologies.Add(addTec);
                 chemicalEn.SaveChanges(); // This line commits the changes to the database

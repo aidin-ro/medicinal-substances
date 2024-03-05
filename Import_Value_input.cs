@@ -100,7 +100,7 @@ namespace DLayer
                             .FirstOrDefault(cc => cc.fID == ImportId);
                         if (Import != null)
                         {
-                            int rowIndex = Import_data_gridview.Rows.Add(); // توجه: از تکنیک کپی و چسباندن استفاده شده است تا خطای دسترسی به ستون‌ها را جلوگیری کنیم
+                            int rowIndex = Import_data_gridview.Rows.Add();
                             Import_data_gridview.Rows[rowIndex].Cells["Chmical"].Value = Chemical.fName; // فرض می‌کنیم که fName نام مواد تشکیل‌دهنده است
                             Import_data_gridview.Rows[rowIndex].Cells["Import_Volume"].Value = Import.fImport_Volume; // فرض می‌کنیم که fImport_Volume حجم واردات است
                             Import_data_gridview.Rows[rowIndex].Cells["Average_Price"].Value = Import.fAverage_Price; // فرض می‌کنیم که fAverage_Price قیمت میانگین است
@@ -116,26 +116,35 @@ namespace DLayer
                 }
             }
         }
-        private void Submit_Click(object sender, EventArgs e)
+        private void simpleButton1_Click(object sender, EventArgs e)
         {
-            using (ChemicalEntities chemicalEn = new ChemicalEntities())
+            try
             {
-                string selected_Chemical = Chemical_combo.SelectedItem.ToString();
-                var selected_Chemical_ID = chemicalEn.tChemical_Base.FirstOrDefault(c => c.fName == selected_Chemical).fID;
-                tImport_Value addimport = new tImport_Value()
+                using (ChemicalEntities chemicalEn = new ChemicalEntities())
                 {
-                    fChemical_Base = selected_Chemical_ID,
-                    fImport_Volume = int.Parse(Import_Volume_txtbox.Text),
-                    fAverage_Price = int.Parse(Average_Price_txtbox.Text),
-                    fDollar_Price = int.Parse(Dollar_Price_txtbox.Text),
-                    fImport_Year = int.Parse(Import_Year_txtbox.Text)
-                };
-                chemicalEn.tImport_Value.Add(addimport);
-                chemicalEn.SaveChanges(); // This line commits the changes to the database
+                    string selected_Chemical = Chemical_combo.SelectedItem.ToString();
+                    var selected_Chemical_ID = chemicalEn.tChemical_Base.FirstOrDefault(c => c.fName == selected_Chemical).fID;
+                    tImport_Value addimport = new tImport_Value()
+                    {
+                        fChemical_Base = selected_Chemical_ID,
+                        fImport_Volume = int.Parse(Import_Volume_txtbox.Text),
+                        fAverage_Price = int.Parse(Average_Price_txtbox.Text),
+                        fDollar_Price = int.Parse(Dollar_Price_txtbox.Text),
+                        fImport_Year = int.Parse(Import_Year_txtbox.Text)
+                    };
+                    chemicalEn.tImport_Value.Add(addimport);
+                    chemicalEn.SaveChanges(); // This line commits the changes to the database
+                }
+                XtraMessageBox.Show(".اطلاعات ذخیره شد");
+            }
+            catch (Exception)
+            {
+
+                XtraMessageBox.Show(".اطلاعات ذخیره نشد");
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Return_Click(object sender, EventArgs e)
         {
             this.Close();
 

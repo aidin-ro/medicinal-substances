@@ -186,6 +186,11 @@ namespace Studies_of_medicinal_substances
             var newform = new inputs();
             newform.Show();
         }
+
+        private void Components_data_gridview_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 
