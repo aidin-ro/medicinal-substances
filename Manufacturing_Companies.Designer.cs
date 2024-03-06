@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
@@ -86,13 +87,13 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(980, 188, 650, 400);
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(934, 450);
+            this.layoutControl1.Size = new System.Drawing.Size(934, 448);
             this.layoutControl1.TabIndex = 1;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 416);
+            this.simpleButton2.Location = new System.Drawing.Point(12, 414);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(215, 22);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -106,7 +107,7 @@
             this.label1.Location = new System.Drawing.Point(718, 60);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(204, 352);
+            this.label1.Size = new System.Drawing.Size(204, 350);
             this.label1.TabIndex = 8;
             this.label1.Text = "با انتخواب کردن نام شرکت می توانید در لیست نام مواد تولیدی را که به این شرکت مربو" +
     "ط است را مشاده کنید";
@@ -114,7 +115,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(476, 416);
+            this.simpleButton1.Location = new System.Drawing.Point(476, 414);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(238, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -125,9 +126,17 @@
             // Chemicals
             // 
             this.Chemicals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Chemicals.DefaultCellStyle = dataGridViewCellStyle1;
             this.Chemicals.Location = new System.Drawing.Point(476, 12);
             this.Chemicals.Name = "Chemicals";
-            this.Chemicals.Size = new System.Drawing.Size(238, 400);
+            this.Chemicals.Size = new System.Drawing.Size(238, 398);
             this.Chemicals.TabIndex = 6;
             // 
             // comboBoxEdit2
@@ -136,7 +145,7 @@
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(141, 20);
+            this.comboBoxEdit2.Size = new System.Drawing.Size(153, 20);
             this.comboBoxEdit2.StyleController = this.layoutControl1;
             this.comboBoxEdit2.TabIndex = 2;
             // 
@@ -146,7 +155,7 @@
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(141, 20);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(153, 20);
             this.comboBoxEdit1.StyleController = this.layoutControl1;
             this.comboBoxEdit1.TabIndex = 0;
             // 
@@ -165,7 +174,7 @@
             this.emptySpaceItem3,
             this.emptySpaceItem2});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(934, 450);
+            this.Root.Size = new System.Drawing.Size(934, 448);
             this.Root.TextVisible = false;
             // 
             // Chemicals_combo
@@ -179,7 +188,7 @@
             this.Chemicals_combo.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.Chemicals_combo.Text = ":نام ماده";
             this.Chemicals_combo.TextLocation = DevExpress.Utils.Locations.Right;
-            this.Chemicals_combo.TextSize = new System.Drawing.Size(51, 13);
+            this.Chemicals_combo.TextSize = new System.Drawing.Size(47, 13);
             // 
             // companies_combo
             // 
@@ -193,14 +202,14 @@
             this.companies_combo.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.companies_combo.Text = ":نام شرکت";
             this.companies_combo.TextLocation = DevExpress.Utils.Locations.Right;
-            this.companies_combo.TextSize = new System.Drawing.Size(51, 13);
+            this.companies_combo.TextSize = new System.Drawing.Size(47, 13);
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.Chemicals;
             this.layoutControlItem1.Location = new System.Drawing.Point(464, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(242, 404);
+            this.layoutControlItem1.Size = new System.Drawing.Size(242, 402);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -209,7 +218,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(464, 404);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(464, 402);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem3
@@ -217,14 +226,14 @@
             this.layoutControlItem3.Control = this.label1;
             this.layoutControlItem3.Location = new System.Drawing.Point(706, 48);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(208, 356);
+            this.layoutControlItem3.Size = new System.Drawing.Size(208, 354);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButton2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 404);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 402);
             this.layoutControlItem4.MaxSize = new System.Drawing.Size(219, 26);
             this.layoutControlItem4.MinSize = new System.Drawing.Size(219, 26);
             this.layoutControlItem4.Name = "layoutControlItem4";
@@ -236,7 +245,7 @@
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButton1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(464, 404);
+            this.layoutControlItem2.Location = new System.Drawing.Point(464, 402);
             this.layoutControlItem2.MaxSize = new System.Drawing.Size(242, 26);
             this.layoutControlItem2.MinSize = new System.Drawing.Size(242, 26);
             this.layoutControlItem2.Name = "layoutControlItem2";
@@ -248,7 +257,7 @@
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(706, 404);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(706, 402);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
             this.emptySpaceItem3.Size = new System.Drawing.Size(208, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -256,7 +265,7 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(219, 404);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(219, 402);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
             this.emptySpaceItem2.Size = new System.Drawing.Size(245, 26);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
@@ -271,7 +280,7 @@
             this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(934, 450);
+            this.ClientSize = new System.Drawing.Size(934, 448);
             this.Controls.Add(this.layoutControl1);
             this.IsMdiContainer = true;
             this.Name = "Manufacturing_Companies_input";

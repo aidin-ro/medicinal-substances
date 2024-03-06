@@ -63,13 +63,13 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(804, 450);
+            this.layoutControl1.Size = new System.Drawing.Size(804, 448);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 416);
+            this.simpleButton2.Location = new System.Drawing.Point(12, 414);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(188, 22);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -79,7 +79,7 @@
             // 
             // Submit
             // 
-            this.Submit.Location = new System.Drawing.Point(603, 416);
+            this.Submit.Location = new System.Drawing.Point(603, 414);
             this.Submit.Name = "Submit";
             this.Submit.Size = new System.Drawing.Size(189, 22);
             this.Submit.StyleController = this.layoutControl1;
@@ -91,7 +91,7 @@
             // 
             this.memoEdit1.Location = new System.Drawing.Point(12, 36);
             this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(704, 96);
+            this.memoEdit1.Size = new System.Drawing.Size(710, 95);
             this.memoEdit1.StyleController = this.layoutControl1;
             this.memoEdit1.TabIndex = 5;
             // 
@@ -99,7 +99,7 @@
             // 
             this.textEdit1.Location = new System.Drawing.Point(12, 12);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(708, 20);
+            this.textEdit1.Size = new System.Drawing.Size(714, 20);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             // 
@@ -115,7 +115,7 @@
             this.layoutControlItem4,
             this.emptySpaceItem2});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(804, 450);
+            this.Root.Size = new System.Drawing.Size(804, 448);
             this.Root.TextVisible = false;
             // 
             // Tec_Name_input
@@ -126,14 +126,14 @@
             this.Tec_Name_input.Size = new System.Drawing.Size(784, 24);
             this.Tec_Name_input.Text = ":نام تکنولوژی";
             this.Tec_Name_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.Tec_Name_input.TextSize = new System.Drawing.Size(60, 13);
+            this.Tec_Name_input.TextSize = new System.Drawing.Size(62, 13);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 124);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 123);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(784, 280);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(784, 279);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // Description_input
@@ -143,16 +143,16 @@
             this.Description_input.MaxSize = new System.Drawing.Size(780, 0);
             this.Description_input.MinSize = new System.Drawing.Size(780, 20);
             this.Description_input.Name = "Description_input";
-            this.Description_input.Size = new System.Drawing.Size(784, 100);
+            this.Description_input.Size = new System.Drawing.Size(784, 99);
             this.Description_input.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.Description_input.Text = "توضیحات";
             this.Description_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.Description_input.TextSize = new System.Drawing.Size(60, 13);
+            this.Description_input.TextSize = new System.Drawing.Size(62, 13);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.Submit;
-            this.layoutControlItem3.Location = new System.Drawing.Point(591, 404);
+            this.layoutControlItem3.Location = new System.Drawing.Point(591, 402);
             this.layoutControlItem3.MaxSize = new System.Drawing.Size(193, 26);
             this.layoutControlItem3.MinSize = new System.Drawing.Size(193, 26);
             this.layoutControlItem3.Name = "layoutControlItem3";
@@ -164,7 +164,7 @@
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButton2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 404);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 402);
             this.layoutControlItem4.MaxSize = new System.Drawing.Size(192, 26);
             this.layoutControlItem4.MinSize = new System.Drawing.Size(192, 26);
             this.layoutControlItem4.Name = "layoutControlItem4";
@@ -176,7 +176,7 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(192, 404);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(192, 402);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
             this.emptySpaceItem2.Size = new System.Drawing.Size(399, 26);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
@@ -185,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(804, 448);
             this.Controls.Add(this.layoutControl1);
             this.Name = "Tec_input";
             this.Text = "Tec_input";

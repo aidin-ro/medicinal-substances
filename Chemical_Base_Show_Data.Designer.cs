@@ -63,11 +63,10 @@
             this.gridControl.MainView = this.gridView;
             this.gridControl.Name = "gridControl";
             this.gridControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.gridControl.Size = new System.Drawing.Size(804, 450);
+            this.gridControl.Size = new System.Drawing.Size(798, 449);
             this.gridControl.TabIndex = 0;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView});
-            this.gridControl.Click += new System.EventHandler(this.gridControl_Click);
             // 
             // gridView
             // 
@@ -133,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(798, 449);
             this.Controls.Add(this.gridControl);
             this.Name = "Chemical_Base_Show_Data";
             this.Text = "Chemical_Base_Show_Data";

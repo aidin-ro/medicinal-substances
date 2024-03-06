@@ -73,13 +73,13 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(804, 450);
+            this.layoutControl1.Size = new System.Drawing.Size(804, 448);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 412);
+            this.simpleButton2.Location = new System.Drawing.Point(12, 410);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(192, 26);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -89,7 +89,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(404, 412);
+            this.simpleButton1.Location = new System.Drawing.Point(404, 410);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(192, 26);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -102,15 +102,15 @@
             this.Components_data_gridview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Components_data_gridview.DefaultCellStyle = dataGridViewCellStyle2;
             this.Components_data_gridview.Location = new System.Drawing.Point(404, 12);
             this.Components_data_gridview.Name = "Components_data_gridview";
-            this.Components_data_gridview.Size = new System.Drawing.Size(192, 396);
+            this.Components_data_gridview.Size = new System.Drawing.Size(192, 394);
             this.Components_data_gridview.TabIndex = 6;
             // 
             // comboBoxEdit2
@@ -119,7 +119,7 @@
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(118, 20);
+            this.comboBoxEdit2.Size = new System.Drawing.Size(126, 20);
             this.comboBoxEdit2.StyleController = this.layoutControl1;
             this.comboBoxEdit2.TabIndex = 5;
             // 
@@ -129,7 +129,7 @@
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(118, 20);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(126, 20);
             this.comboBoxEdit1.StyleController = this.layoutControl1;
             this.comboBoxEdit1.TabIndex = 4;
             // 
@@ -148,7 +148,7 @@
             this.emptySpaceItem4,
             this.layoutControlItem5});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(804, 450);
+            this.Root.Size = new System.Drawing.Size(804, 448);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem3
@@ -156,7 +156,7 @@
             this.layoutControlItem3.Control = this.Components_data_gridview;
             this.layoutControlItem3.Location = new System.Drawing.Point(392, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(196, 400);
+            this.layoutControlItem3.Size = new System.Drawing.Size(196, 398);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
@@ -185,13 +185,13 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(392, 400);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(392, 398);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButton1;
-            this.layoutControlItem4.Location = new System.Drawing.Point(392, 400);
+            this.layoutControlItem4.Location = new System.Drawing.Point(392, 398);
             this.layoutControlItem4.MaxSize = new System.Drawing.Size(0, 30);
             this.layoutControlItem4.MinSize = new System.Drawing.Size(80, 30);
             this.layoutControlItem4.Name = "layoutControlItem4";
@@ -205,13 +205,13 @@
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.Location = new System.Drawing.Point(588, 48);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(196, 352);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(196, 350);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(196, 400);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(196, 398);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
             this.emptySpaceItem3.Size = new System.Drawing.Size(196, 30);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -219,7 +219,7 @@
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(588, 400);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(588, 398);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(196, 30);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -227,7 +227,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.simpleButton2;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 400);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 398);
             this.layoutControlItem5.MinSize = new System.Drawing.Size(80, 26);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(196, 30);
@@ -239,7 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(804, 448);
             this.Controls.Add(this.layoutControl1);
             this.Name = "Consumer_input";
             this.Text = "Consumer_input";

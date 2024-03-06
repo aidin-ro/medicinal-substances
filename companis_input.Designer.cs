@@ -81,13 +81,13 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(804, 450);
+            this.layoutControl1.Size = new System.Drawing.Size(804, 448);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 416);
+            this.simpleButton2.Location = new System.Drawing.Point(12, 414);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(191, 22);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -97,7 +97,7 @@
             // 
             // submit
             // 
-            this.submit.Location = new System.Drawing.Point(591, 416);
+            this.submit.Location = new System.Drawing.Point(591, 414);
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(201, 22);
             this.submit.StyleController = this.layoutControl1;
@@ -109,7 +109,7 @@
             // 
             this.textEdit4.Location = new System.Drawing.Point(404, 84);
             this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(279, 20);
+            this.textEdit4.Size = new System.Drawing.Size(294, 20);
             this.textEdit4.StyleController = this.layoutControl1;
             this.textEdit4.TabIndex = 7;
             // 
@@ -117,7 +117,7 @@
             // 
             this.textEdit3.Location = new System.Drawing.Point(404, 60);
             this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(279, 20);
+            this.textEdit3.Size = new System.Drawing.Size(294, 20);
             this.textEdit3.StyleController = this.layoutControl1;
             this.textEdit3.TabIndex = 6;
             // 
@@ -125,7 +125,7 @@
             // 
             this.textEdit2.Location = new System.Drawing.Point(404, 36);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(279, 20);
+            this.textEdit2.Size = new System.Drawing.Size(294, 20);
             this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 5;
             // 
@@ -133,7 +133,7 @@
             // 
             this.textEdit1.Location = new System.Drawing.Point(404, 12);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(279, 20);
+            this.textEdit1.Size = new System.Drawing.Size(294, 20);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             // 
@@ -155,7 +155,7 @@
             this.emptySpaceItem6,
             this.layoutControlItem2});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(804, 450);
+            this.Root.Size = new System.Drawing.Size(804, 448);
             this.Root.TextVisible = false;
             // 
             // fCompanyName_input
@@ -167,14 +167,14 @@
             this.fCompanyName_input.Size = new System.Drawing.Size(392, 24);
             this.fCompanyName_input.Text = ":نام شرکت";
             this.fCompanyName_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.fCompanyName_input.TextSize = new System.Drawing.Size(97, 13);
+            this.fCompanyName_input.TextSize = new System.Drawing.Size(90, 13);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 96);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(784, 308);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(784, 306);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // fNationalCode_input
@@ -185,7 +185,7 @@
             this.fNationalCode_input.Size = new System.Drawing.Size(392, 24);
             this.fNationalCode_input.Text = ":کد ملی شرکت";
             this.fNationalCode_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.fNationalCode_input.TextSize = new System.Drawing.Size(97, 13);
+            this.fNationalCode_input.TextSize = new System.Drawing.Size(90, 13);
             // 
             // fEconomicCode_input
             // 
@@ -195,7 +195,7 @@
             this.fEconomicCode_input.Size = new System.Drawing.Size(392, 24);
             this.fEconomicCode_input.Text = ":کد اقتصادی شرکت";
             this.fEconomicCode_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.fEconomicCode_input.TextSize = new System.Drawing.Size(97, 13);
+            this.fEconomicCode_input.TextSize = new System.Drawing.Size(90, 13);
             // 
             // fRegisterNumber_input
             // 
@@ -205,7 +205,7 @@
             this.fRegisterNumber_input.Size = new System.Drawing.Size(392, 24);
             this.fRegisterNumber_input.Text = ":کد ریجستری شرکت";
             this.fRegisterNumber_input.TextLocation = DevExpress.Utils.Locations.Right;
-            this.fRegisterNumber_input.TextSize = new System.Drawing.Size(97, 13);
+            this.fRegisterNumber_input.TextSize = new System.Drawing.Size(90, 13);
             // 
             // emptySpaceItem2
             // 
@@ -242,7 +242,7 @@
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.submit;
-            this.layoutControlItem1.Location = new System.Drawing.Point(579, 404);
+            this.layoutControlItem1.Location = new System.Drawing.Point(579, 402);
             this.layoutControlItem1.MaxSize = new System.Drawing.Size(205, 26);
             this.layoutControlItem1.MinSize = new System.Drawing.Size(205, 26);
             this.layoutControlItem1.Name = "layoutControlItem1";
@@ -254,7 +254,7 @@
             // emptySpaceItem6
             // 
             this.emptySpaceItem6.AllowHotTrack = false;
-            this.emptySpaceItem6.Location = new System.Drawing.Point(195, 404);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(195, 402);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
             this.emptySpaceItem6.Size = new System.Drawing.Size(384, 26);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
@@ -262,7 +262,7 @@
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButton2;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 404);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 402);
             this.layoutControlItem2.MaxSize = new System.Drawing.Size(195, 26);
             this.layoutControlItem2.MinSize = new System.Drawing.Size(195, 26);
             this.layoutControlItem2.Name = "layoutControlItem2";
@@ -275,7 +275,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(804, 448);
             this.Controls.Add(this.layoutControl1);
             this.Name = "companis_input";
             this.Text = "companis_input";

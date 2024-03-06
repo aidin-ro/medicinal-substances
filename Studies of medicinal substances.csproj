@@ -153,6 +153,12 @@
     <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show_One_Chemical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_One_Chemical.Designer.cs">
+      <DependentUpon>Show_One_Chemical.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tec_input.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Show_One_Chemical.resx">
+      <DependentUpon>Show_One_Chemical.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tec_input.resx">
       <DependentUpon>Tec_input.cs</DependentUpon>
     </EmbeddedResource>

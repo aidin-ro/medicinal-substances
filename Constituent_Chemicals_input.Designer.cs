@@ -73,13 +73,13 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(833, 450);
+            this.layoutControl1.Size = new System.Drawing.Size(833, 448);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 416);
+            this.simpleButton2.Location = new System.Drawing.Point(12, 414);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(175, 22);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -89,7 +89,7 @@
             // 
             // Submit
             // 
-            this.Submit.Location = new System.Drawing.Point(381, 416);
+            this.Submit.Location = new System.Drawing.Point(381, 414);
             this.Submit.Name = "Submit";
             this.Submit.Size = new System.Drawing.Size(215, 22);
             this.Submit.StyleController = this.layoutControl1;
@@ -102,15 +102,15 @@
             this.Components_data_gridview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Components_data_gridview.DefaultCellStyle = dataGridViewCellStyle1;
             this.Components_data_gridview.Location = new System.Drawing.Point(380, 12);
             this.Components_data_gridview.Name = "Components_data_gridview";
-            this.Components_data_gridview.Size = new System.Drawing.Size(216, 400);
+            this.Components_data_gridview.Size = new System.Drawing.Size(216, 398);
             this.Components_data_gridview.TabIndex = 6;
             this.Components_data_gridview.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Components_data_gridview_CellContentClick);
             // 
@@ -120,7 +120,7 @@
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(119, 20);
+            this.comboBoxEdit2.Size = new System.Drawing.Size(128, 20);
             this.comboBoxEdit2.StyleController = this.layoutControl1;
             this.comboBoxEdit2.TabIndex = 5;
             // 
@@ -130,7 +130,7 @@
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(119, 20);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(128, 20);
             this.comboBoxEdit1.StyleController = this.layoutControl1;
             this.comboBoxEdit1.TabIndex = 4;
             // 
@@ -149,7 +149,7 @@
             this.emptySpaceItem3,
             this.emptySpaceItem4});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(833, 450);
+            this.Root.Size = new System.Drawing.Size(833, 448);
             this.Root.TextVisible = false;
             // 
             // emptySpaceItem1
@@ -157,7 +157,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(588, 48);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(225, 356);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(225, 354);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem3
@@ -165,7 +165,7 @@
             this.layoutControlItem3.Control = this.Components_data_gridview;
             this.layoutControlItem3.Location = new System.Drawing.Point(368, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(220, 404);
+            this.layoutControlItem3.Size = new System.Drawing.Size(220, 402);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
@@ -177,7 +177,7 @@
             this.layoutControlItem2.Size = new System.Drawing.Size(225, 24);
             this.layoutControlItem2.Text = ":ماده پایه";
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Right;
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(90, 13);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(89, 13);
             // 
             // layoutControlItem1
             // 
@@ -187,20 +187,20 @@
             this.layoutControlItem1.Size = new System.Drawing.Size(225, 24);
             this.layoutControlItem1.Text = ":ماده تشکیل دهنده";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Right;
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(90, 13);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(89, 13);
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(368, 404);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(368, 402);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.Submit;
-            this.layoutControlItem4.Location = new System.Drawing.Point(369, 404);
+            this.layoutControlItem4.Location = new System.Drawing.Point(369, 402);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(219, 26);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -209,7 +209,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.simpleButton2;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 404);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 402);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(179, 26);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
@@ -218,7 +218,7 @@
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(179, 404);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(179, 402);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
             this.emptySpaceItem3.Size = new System.Drawing.Size(190, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -226,7 +226,7 @@
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(588, 404);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(588, 402);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(225, 26);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -235,7 +235,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(833, 450);
+            this.ClientSize = new System.Drawing.Size(833, 448);
             this.Controls.Add(this.layoutControl1);
             this.Name = "Constituent_Chemicals_input";
             this.Text = "Constituent_Chemicals_input";
